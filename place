@@ -1,0 +1,11 @@
+string = "place"
+
+count = {}
+
+for p in string:
+    if p in count:
+        count[p] += 1
+    else:
+        count[p] = 1
+
+    result = sorted
